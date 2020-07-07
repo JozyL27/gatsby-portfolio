@@ -1,0 +1,44 @@
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+/* Collage css */
+.fourpics {
+    display: flex;
+    flex-direction: column;
+}
+  
+.first, .second {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.collageImgs {
+      width: auto;
+      height: 140px;
+      margin-left: 10px;
+      transition-duration: 0.4s;
+}
+
+.collageImgs:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    text-decoration: none;
+}

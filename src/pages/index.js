@@ -7,6 +7,7 @@ import statue from '../images/IMG_2080.jpeg'
 import man from '../images/IMG_1504.jpeg'
 import venice from '../images/IMG_1019.jpeg'
 import me from '../images/me.jpeg'
+import '../Styles/global.css'
 
 const IndexPage = () => (
   <Layout>
