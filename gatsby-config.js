@@ -1,3 +1,5 @@
+/* eslint-disable strict */
+
 module.exports = {
   siteMetadata: {
     title: `Jose Lopez Developer Portfolio`,
