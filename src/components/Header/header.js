@@ -4,11 +4,12 @@ import React from "react"
 import '../../Styles/global.css'
 
 const Header = ({ siteTitle }) => (
-  <header>
-    <ul>
-      <li>Projects</li>
-      <li>Contact</li>
-      <li>Home</li>
+  <header className='headerContainer'>
+    <h1 className='signature'>Jozy Alba</h1>
+    <ul className='navContainer'>
+      <li className='navLink'>Projects</li>
+      <li className='navLink'>Contact</li>
+      <li className='navLink'>Home</li>
     </ul>
   </header>
 )
