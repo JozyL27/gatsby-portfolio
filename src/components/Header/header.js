@@ -7,9 +7,9 @@ const Header = ({ siteTitle }) => (
   <header className='headerContainer'>
     <h1 className='signature'>Jozy Alba</h1>
     <ul className='navContainer'>
-      <li className='navLink'>Projects</li>
       <li className='navLink'>Contact</li>
-      <li className='navLink'>Home</li>
+      <li className='navLink'>Projects</li>
+      <li className='navLink'>Resume</li>
     </ul>
   </header>
 )
