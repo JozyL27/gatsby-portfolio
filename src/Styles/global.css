@@ -33,7 +33,7 @@ ul {
     display: flex;
     align-items: center;
     /* margin-top: 10px; */
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     /* box-shadow: 0 4px 10px -2px #888888; */
     /* box-shadow: 0rem .3rem .4rem #888888; */
     width: auto;
@@ -98,6 +98,31 @@ ul {
 
 .collageImgs:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bar {
+    height: 1px;
+    width: 30%;
+
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, rgb(48, 207, 208), rgb(51, 8, 103));
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 4s ease-in-out infinite;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+}
+
+@keyframes change {
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
 }
 
 
