@@ -1,0 +1,28 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto 0px auto;
+  padding: 15px;
+
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+  border-radius: 5px;
+  max-width: 85%;
+}
+
+.aboutHeader {
+  margin: 0;
+}
+
+.firstPara {
+  max-width: 80%;
+  text-align: center;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutContainer {
+    max-width: 500px;
+  }
+}

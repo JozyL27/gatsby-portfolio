@@ -1,30 +1,28 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 // import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import "../Styles/global.css"
-import Collage from '../components/Collage/Collage'
+import Collage from "../components/Collage/Collage"
+import TabNavigation from "../components/TabNavigation/TabNavigation"
+import AboutMe from "../components/AboutMe/AboutMe"
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <Collage />
+const IndexPage = () => {
+  const [tabValue, setTabValue] = useState(0)
+  useEffect(() => {
+    setTabValue(0)
+  }, [])
+  return (
+    <Layout>
+      <SEO title="Home" />
+      <Collage />
 
-    <section className="aboutSection">
-      <h3 className="aboutHeader">About Me</h3>
-      <p className="firstPara">
-        Raised in the east & south sides of Chicago I, Jose Lopez, am a
-        fullstack web developer, poker player, soccer enthusiast, and designer
-        reseller. After studying sociology at Prairie State College, I began to
-        teach myself how to code basic HTML, CSS, and JavaScript after a friend
-        approached me to design a website for a clothing line. During the
-        process, I found my love and passion for coding as to me a webpage
-        resembled a blank canvas. This blank canvas allowed me to both help
-        others & express myself creatively. My websites convey my love and
-        admiration of minimalist fashion, architecture, and design philosophy.
-      </p>
-    </section>
-  </Layout>
-)
+      <section className="mainSection">
+        <TabNavigation value={tabValue} />
+        {tabValue === 0 ? <AboutMe /> : null}
+      </section>
+    </Layout>
+  )
+}
 
 export default IndexPage
