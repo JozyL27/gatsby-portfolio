@@ -9,16 +9,21 @@ import AboutMe from "../components/AboutMe/AboutMe"
 
 const IndexPage = () => {
   const [tabValue, setTabValue] = useState(0)
+  const handleChange = (event, newValue) => {
+    setTabValue(newValue)
+  }
   useEffect(() => {
     setTabValue(0)
   }, [])
+
+  console.log(tabValue)
   return (
     <Layout>
       <SEO title="Home" />
       <Collage />
 
       <section className="mainSection">
-        <TabNavigation value={tabValue} />
+        <TabNavigation value={tabValue} handleChange={handleChange} />
         {tabValue === 0 ? <AboutMe /> : null}
       </section>
     </Layout>

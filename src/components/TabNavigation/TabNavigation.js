@@ -14,10 +14,10 @@ const TabNavigation = props => {
           value={props.value}
           onChange={props.handleChange}
         >
-          <Tab label="About" />
-          <Tab label="Projects" />
-          <Tab label="Tech" />
-          <Tab label="Contact" />
+          <Tab label="About" value={0} />
+          <Tab label="Projects" value={1} />
+          <Tab label="Skills" value={2} />
+          <Tab label="Contact" value={3} />
         </Tabs>
       </Paper>
     </>
