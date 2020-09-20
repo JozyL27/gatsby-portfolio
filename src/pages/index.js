@@ -6,6 +6,7 @@ import "../Styles/global.css"
 import Collage from "../components/Collage/Collage"
 import TabNavigation from "../components/TabNavigation/TabNavigation"
 import AboutMe from "../components/AboutMe/AboutMe"
+import Projects from "../components/Projects/Projects"
 
 const IndexPage = () => {
   const [tabValue, setTabValue] = useState(0)
@@ -24,7 +25,7 @@ const IndexPage = () => {
 
       <section className="mainSection">
         <TabNavigation value={tabValue} handleChange={handleChange} />
-        {tabValue === 0 ? <AboutMe /> : null}
+        {tabValue === 0 ? <AboutMe /> : tabValue === 1 ? <Projects /> : null}
       </section>
     </Layout>
   )
