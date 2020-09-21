@@ -18,7 +18,7 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "IMG_2080.jpeg" }) {
         childImageSharp {
-          fluid(maxWidth: 800) {
+          fluid(maxWidth: 250, maxHeight: 250, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -26,9 +26,12 @@ const Image = () => {
     }
   `)
 
-  console.log(data.placeholderImage)
-
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fluid={data.placeholderImage.childImageSharp.fluid}
+      className="collageImgs"
+    />
+  )
 }
 
 export default Image
