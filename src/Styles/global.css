@@ -95,3 +95,17 @@ ul {
 
   font-weight: 600;
 }
+
+.notFoundContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.notMsg {
+  text-align: center;
+  padding: 10px;
+  line-height: 1.5s;
+}
