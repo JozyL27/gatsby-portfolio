@@ -1,7 +1,7 @@
 import React from "react"
 import statue from "../../images/statue.jpeg"
 import man from "../../images/IMG_1504.jpeg"
-import venice from "../../images/IMG_1019.jpeg"
+import venice from "../../images/venice.jpeg"
 import me from "../../images/me.jpeg"
 
 export default function Collage() {

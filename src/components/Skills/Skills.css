@@ -1,0 +1,19 @@
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin-top: 40px;
+}
+
+.skillSvg {
+  width: 60px;
+  margin: 40px auto 0px auto;
+  padding: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .skillsContainer {
+    box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
+    border-radius: 5px;
+  }
+}

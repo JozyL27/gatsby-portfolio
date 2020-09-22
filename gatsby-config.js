@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `Jose Lopez Developer Portfolio`,
     description: `Portfolio`,
-    author: `@gatsbyjs`,
+    author: `Jose Lopez`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +27,14 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/,
+        },
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

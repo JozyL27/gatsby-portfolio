@@ -1,7 +1,7 @@
 import React from "react"
 import ProjectCard from "../ProjectCard/ProjectCard"
 import CardiganImage from "../../images/cardigan.png"
-import KatiaImage from "../../images/katiaNew.png"
+import KatiaImage from "../../images/portfolioKatia.png"
 import HablaImage from "../../images/habla.png"
 import "./Projects.css"
 
