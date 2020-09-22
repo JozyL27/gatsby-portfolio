@@ -1,5 +1,4 @@
 import React from "react"
-import Github from "../../assets/github.svg"
 import "./ProjectCard.css"
 
 const ProjectCard = props => {
@@ -8,7 +7,7 @@ const ProjectCard = props => {
       <img src={props.image} className="projImage" />
       <p className="projPara">{props.info}</p>
       <a href={props.github} className="projLink" target="blank">
-        <Github className="projSvg" />
+        Github
       </a>
       <a href={props.appLink} target="blank" className="projLink">
         {props.name}

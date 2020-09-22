@@ -10,7 +10,6 @@ import Mocha from "../../assets/mocha.svg"
 import Node from "../../assets/node-dot-js.svg"
 import Npm from "../../assets/npm.svg"
 import Postgres from "../../assets/postgresql.svg"
-import Router from "../../assets/reactrouter.svg"
 import Socket from "../../assets/socket-dot-io.svg"
 import Vscode from "../../assets/visualstudiocode.svg"
 import ReactLogo from "../../assets/reactLogo2.svg"
@@ -22,7 +21,6 @@ const Skills = () => {
     <section className="skillsContainer">
       <ReactLogo className="skillSvg" />
       <GatsbyLogo className="skillSvg" />
-      {/* <Router className="skillSvg" /> */}
       <Node className="skillSvg" />
       <Js className="skillSvg" />
       <Html className="skillSvg" />
