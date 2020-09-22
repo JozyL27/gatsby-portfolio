@@ -18,22 +18,24 @@ import "./Skills.css"
 
 const Skills = () => {
   return (
-    <section className="skillsContainer">
-      <ReactLogo className="skillSvg" />
-      <GatsbyLogo className="skillSvg" />
-      <Node className="skillSvg" />
-      <Js className="skillSvg" />
-      <Html className="skillSvg" />
-      <Css className="skillSvg" />
-      <Postgres className="skillSvg" />
-      <Jest className="skillSvg" />
-      <Mocha className="skillSvg" />
-      <JWT className="skillSvg" />
-      <Socket className="skillSvg" />
-      <Material className="skillSvg" />
-      <Vscode className="skillSvg" />
-      <Npm className="skillSvg" />
-      <Github className="skillSvg" />
+    <section className="skillSection">
+      <div className="skillsContainer">
+        <ReactLogo className="skillSvg" />
+        <GatsbyLogo className="skillSvg" />
+        <Node className="skillSvg" />
+        <Js className="skillSvg" />
+        <Html className="skillSvg" />
+        <Css className="skillSvg" />
+        <Postgres className="skillSvg" />
+        <Jest className="skillSvg" />
+        <Mocha className="skillSvg" />
+        <JWT className="skillSvg" />
+        <Socket className="skillSvg" />
+        <Material className="skillSvg" />
+        <Vscode className="skillSvg" />
+        <Npm className="skillSvg" />
+        <Github className="skillSvg" />
+      </div>
     </section>
   )
 }

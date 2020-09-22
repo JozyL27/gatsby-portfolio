@@ -1,14 +1,29 @@
+.skillSection {
+  display: flex;
+  max-width: 1400px;
+  margin-top: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
 .skillsContainer {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
-  max-width: 50%;
-  margin-top: 40px;
+  width: 50%;
 }
 
 .skillSvg {
-  width: 60px;
-  margin: 40px auto 0px auto;
-  padding: 40px;
+  flex-grow: 0;
+  width: 50px;
+  /* padding: 40px; */
+  margin: 40px 40px 40px 40px;
+}
+
+.skillSvg:hover {
+  filter: invert(25%) sepia(88%) saturate(6778%) hue-rotate(340deg)
+    brightness(88%) contrast(96%);
 }
 
 @media screen and (min-width: 768px) {
