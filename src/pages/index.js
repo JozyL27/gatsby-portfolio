@@ -18,7 +18,6 @@ const IndexPage = () => {
     setTabValue(0)
   }, [])
 
-  console.log(tabValue)
   return (
     <Layout>
       <SEO title="Home" />

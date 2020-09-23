@@ -4,14 +4,16 @@ import "./ProjectCard.css"
 const ProjectCard = props => {
   return (
     <li className="projectContainer">
-      <img src={props.image} className="projImage" />
+      <img src={props.image} className="projImage" alt="project" />
       <p className="projPara">{props.info}</p>
-      <a href={props.github} className="projLink" target="blank">
-        Github
-      </a>
-      <a href={props.appLink} target="blank" className="projLink">
-        {props.name}
-      </a>
+      <div className="projLinkContainer">
+        <a href={props.github} className="projLink" target="blank">
+          Github
+        </a>
+        <a href={props.appLink} target="blank" className="projLink">
+          {props.name}
+        </a>
+      </div>
     </li>
   )
 }
