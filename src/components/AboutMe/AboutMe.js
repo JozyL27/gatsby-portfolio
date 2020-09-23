@@ -13,7 +13,7 @@ const AboutMe = () => {
         website for his clothing line. During the process, I found my love and
         passion for coding as to me a webpage resembles a blank canvas. This
         blank canvas allows me to both help others & express myself creatively.
-        My websites convey my love and admiration of minimalist fashion,
+        My web apps convey my love and admiration of minimalist fashion,
         architecture, and design philosophy.
       </p>
     </section>

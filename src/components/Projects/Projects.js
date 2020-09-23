@@ -13,9 +13,7 @@ const projectsInfo = [
     github: "https://github.com/JozyL27/district-client",
     info: `Cardigan is a blogsite for menswear
     enthusiasts. It supports CRUD operations for
-    the following: articles, comments, and profiles.
-    It also supports real time messaging by
-    leveraging Socket.io's front and backend APIs.`,
+    the following: articles, comments, and profiles.`,
   },
   {
     name: "Katia",
