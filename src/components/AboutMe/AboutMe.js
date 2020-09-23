@@ -12,9 +12,9 @@ const AboutMe = () => {
         basic HTML, CSS, and JavaScript after a friend approached me to design a
         website for his clothing line. During the process, I found my love and
         passion for coding as to me a webpage resembles a blank canvas. This
-        blank canvas allows me to both help others & express myself creatively.
-        My web apps convey my love and admiration of minimalist fashion,
-        architecture, and design philosophy.
+        blank canvas has allowed me to both help others & express myself
+        creatively. My web apps convey my love and admiration of minimalist
+        fashion, architecture, and design philosophy.
       </p>
     </section>
   )
