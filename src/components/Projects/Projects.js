@@ -12,8 +12,7 @@ const projectsInfo = [
     appLink: "https://district-client.vercel.app/",
     github: "https://github.com/JozyL27/district-client",
     info: `Cardigan is a blogsite for menswear
-    enthusiasts. It supports CRUD operations for
-    the following: articles, comments, and profiles.`,
+    enthusiasts. It supports CRUD operations for articles, comments, messages, and profiles.`,
   },
   {
     name: "Katia",
